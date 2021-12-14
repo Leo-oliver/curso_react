@@ -1,6 +1,8 @@
 import './App.css';
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Soma from './components/Soma';
+import Porcentagem from './components/Porcentagem';
 {/*
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
@@ -32,6 +34,8 @@ function App() {
      <Evento numero="1"/>
      <Evento numero="2"/>
      <Form/>
+     <Soma/> 
+     <Porcentagem/>   
     </div>
   );
 }
